@@ -1,0 +1,52 @@
+/*Завдання 1 */
+.text-box {
+}
+h3:first-child {
+  color: pink;
+}
+#greycol {
+  color: grey;
+}
+p:only-child {
+  color: red;
+}
+p:nth-child(7) {
+  color: green;
+}
+.yellow {
+  color: yellow;
+}
+/*Завдання 2*/
+li:hover {
+  color: firebrick;
+}
+.link:focus {
+  color: blue;
+}
+.link:link {
+  color: brown;
+}
+li:first-child {
+  color: darkblue;
+}
+.link:visited {
+  color: springgryneen;
+}
+input:not([type="text"]) {
+  background-color: deeppink;
+}
+li:last-child {
+  color: slateblue;
+}
+li:nth-child(odd) {
+  background-color: bisque;
+}
+li:nth-child(even) {
+  background-color: mediumvioletred;
+}
+ul:nth-child(3) {
+  font-style: italic;
+}
+::selection {
+  color: darkorchid;
+}
